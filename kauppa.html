@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" lang="fi" />
+  <meta name="description" content="Simple Web Cart Example">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Web Cart">
+  <meta name="author" content="Henri Marjomaa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  
+<link rel="Stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+
+<div id="content">
+<h1>NettiKauppa v0.7</h1>
+
+<div>
+	<div id="cart_info">
+		<span id="cart_icon">&#128722;</span>
+		<span id="cart_number">0</span>
+	</div>
+</div>
+<br/><br/>
+
+	<div id="menu">
+		<ul>
+			<li>Men
+				<ul>
+					<li class="active">T-shirts</li>
+					<li>Jeans</li>
+					<li>Socks</li>
+					<li>Shoes</li>
+				</ul>
+			</li>
+			
+			<li>Women
+				<ul>
+					<li>T-shirts</li>
+					<li>Jeans</li>
+					<li>Socks</li>
+					<li>Shoes</li>
+				</ul>
+			</li>
+			
+			<li>Kids</li>
+			<li>Accessories
+				<ul>
+					<li>Bags</li>
+					<li>Care</li>
+					<li>Guarantee Policy</li>
+				</ul>
+		</ul>
+	</div>
+	
+	<div id="products">
+		<ol id="productList">
+
+		</ol>
+	</div>
+	
+	<div id="cart">
+		<ol id="cartList">
+
+		</ol>				
+		<span id="totalSum">0</span>
+	</div>
+</div>
+<script src="scripts.js" type="text/javascript"></script>
+<script>
+init();
+</script>
+</body>
+</html>

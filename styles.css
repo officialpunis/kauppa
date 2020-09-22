@@ -1,0 +1,155 @@
+*, html{
+	padding: 0;
+	margin: 0;
+	color: orange;
+}
+
+html, body{
+	height: 100%;
+}
+
+#content{
+	width: 800px;
+	height: 100%;
+	display: block;
+	background-image: url(https://external-preview.redd.it/LRmT8yJPpoqGulM3_Js5IskqmxqPwgb196NFUtX08oY.jpg?auto=webp&s=8cafc04e8600b49eee044ec92d833b986e2c33d9);
+	position: relative;
+	margin: 0 auto; /* elementin keskitys vaakasuunnassa */
+	border: 10px solid orange;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	padding-top:20px;
+	color: orange;
+	letter-spacing: 4px;
+	font-size: 52px;
+	text-shadow: 1px 1px 0px #ccc, 2px 2px 0px #000, -1px -1px 2px #555;
+}
+
+#cart_info{
+	float: right;
+	margin-top: -30px;
+	margin-right: 30px;
+}
+
+#cart_icon{
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#cart_number{
+	font-size: 30px;
+}
+
+#menu{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+
+#products{
+	float: left;
+	width: 420px;
+	height: auto;
+}
+
+#products ol{
+	margin-left: 20px;
+}
+
+#productList li{
+	width: 150px;
+	height: 160px;
+	float: left;
+	clear: none;
+	background-image: linear-gradient(to bottom right, darkblue , purple, #ff66ff);
+	border-radius: 12px;
+	margin: 4px;
+	list-style: none;
+}
+
+#productList li .product{
+	text-align: center;
+}
+
+#productList li img{
+	width: 96px;
+	height: 96px;
+	clear: both;
+	border-radius: 12px;
+	margin-top: 8px;
+	cursor: pointer;
+	padding: 6px;
+	background-color: #fff;
+}
+
+#cart .product{
+	float: left;
+	width: 200px;
+	height: 800px;
+	overflow: auto;
+}
+
+#cart{
+	float: left;
+	width: 200px;
+	height: 88%;
+	overflow: auto;	
+}
+
+#cart ol{
+	margin-left: 20px;
+}
+
+#cart ol li {
+	width: 96px;
+	height: 140px;
+	float: center;
+	clear: none;
+	background-image: linear-gradient(to bottom right, #ff66ff , purple, darkblue);
+	border-radius: 12px;
+	margin: 4px;
+	list-style: none;
+}
+
+#cart ol li img {
+	width: 72px;
+	height: 72px;
+	clear: both;
+	border-radius: 12px;
+	margin-top: 8px;
+	padding: 8px;
+	background-color: #fff;		
+}
+
+#cart .removed{
+	display: none;
+}
+
+#cart #totalSum{
+	float: right;
+	padding-right: 15px;
+}
+
+#menu ul{
+	margin-left: 10px;
+}
+
+#menu ul li{
+	list-style: none;
+	cursor: pointer;
+}
+
+#menu ul li ul {
+	opacity: 0;
+	transition: all 0.25s ease-in-out;
+}
+
+#menu ul li:hover > ul{
+	opacity: 1;
+}
+
+
+/* margin: 0 auto; */
